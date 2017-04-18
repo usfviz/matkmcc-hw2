@@ -42,6 +42,8 @@ create_country_input <- function(region) {
 
 # slider input animate = r
 ui <- fluidPage(
+  
+    titlePanel("Assignment #2 - Visualization"),
     
     sidebarLayout(
           
