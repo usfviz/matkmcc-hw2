@@ -27,7 +27,7 @@ dot_plot <- function(plot_data, scale_parameter) {
                    ) %>%
   layer_points(data = plot_data) %>%
   add_tooltip(text_output, on = c('hover')) %>%
-  hide_legend(c('size', 'shape', 'fill')) %>%
+  hide_legend(c('size', 'shape')) %>%
   add_axis(type = 'x', title = 'Life Expectancy', 
            grid = F, values = seq(0,90,by=5)) %>%
   add_axis(type = 'y', title = 'Fertility Rate', 
